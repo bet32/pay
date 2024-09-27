@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAYMENT</title>
+    <title>Football</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -77,7 +77,7 @@
     <script>
         // Alert Function
         function showAlert() {
-            let alertMessage = "We will pay you $50 at the end of the month if you share your football opinion on our football debate, EPL and LA-LIGA videos";
+            let alertMessage = "We will pay you $50 at the end of the month if you share your opinion on our football debate and epl matches";
             if (confirm(alertMessage + ". CLICK OK TO BEGIN")) {
                 document.querySelector('.content').style.display = 'block';
             }
@@ -86,12 +86,14 @@
         // Show alert when the page loads
         window.onload = showAlert;
 
-        // Function for payment button alert
-        function paymentAlert() {
-            alert("Your payment account will open if you get 50 comments on 20 videos we post");
+        // Function for payment button alert and redirect
+        function paymentAlertAndRedirect() {
+            alert(" SUBSCRIBE TO OUR YOUTUBE SO YOU CAN GET PAID ,WE WILL EMAIL YOU AFTER SUBSCRIBING . CLICK OK");
+            // Redirect to URL after alert
+            window.location.href = 'https://www.youtube.com/@betodds2024  ';  // Replace with your desired URL
         }
 
-        // Function for navigating to a website
+        // Function for navigating to a different website
         function goToWebsite(url) {
             window.location.href = url;
         }
@@ -99,10 +101,10 @@
 
     <!-- Content to be shown after the alert -->
     <div class="container">
-        <button onclick="paymentAlert()">CHECK YOUR PAYMENT</button>
-        <p><b><a href='https://bet32.github.io/live2/ '>CLICK HERE FOR TODAY BET ODDS </a></b></p>
-        <button onclick="goToWebsite('https://youtu.be/56IzWRUQi5E ')">
-            CLICK HERE TO SHARE YOUR OPINION<br>ON DEBRUNYE AND INIESTA DEBATE<br>AND GET PAID<br> 
+        <button onclick="paymentAlertAndRedirect()">CHECK YOUR PAYMENT</button>
+        <p><b><a href='https://bet546.github.io/ai/ '>CLICK TO WATCH OUR BET ODDS FOR TODAY </a></b></p>
+        <button onclick="goToWebsite('https://youtu.be/56IzWRUQi5E  ')">
+            CLICK HERE TO SHARE YOUR OPINION<br>ON DEBRUNYE AND INIESTA DEBATE<br>AND GET PAID<br>
         </button>
     </div>
 </body>
